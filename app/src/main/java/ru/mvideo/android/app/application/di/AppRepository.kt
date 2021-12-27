@@ -15,7 +15,7 @@ object AppRepository {
         @JvmStatic
         @Provides
         @Singleton
-        fun articleRepository(
+        fun catalogRepository(
             repositoryProvider: RepositoryProvider
         ): CatalogRepository = repositoryProvider.catalogRepository
 
