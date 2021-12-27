@@ -10,7 +10,7 @@ class CategoriesInteractor @Inject constructor(
     private val catalogRepository: CatalogRepository
 ) {
 
-    fun getProducts(): Single<List<Category>> {
+    fun getCategories(): Single<List<Category>> {
         return catalogRepository.getCategories()
             .subscribeOn(Schedulers.io())
     }

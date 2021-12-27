@@ -26,14 +26,12 @@ internal class CatalogViewModel @Inject constructor(
         viewModelScope.launch {
             getCatalogsDisposable.dispose()
             getCatalogsDisposable =
-                interactor.getProducts()
+                interactor.getCategories()
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe({
                         Log.wtf("Presenter taken catalogs ", "$it")
                         mutableLiveData.value = it
-                    }, {
-                        //TODO not impleneted yet
-                    })
+                    }, {})
         }
     }
 
