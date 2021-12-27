@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- светлая тема -->
+    <style name="BaseTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorSecondary">@color/midnight_blue_10</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/midnight_red</item>
+        <item name="colorError">@color/burnt_sienna</item>
+        <item name="colorControlHighlight">@color/midnight_blue_10</item>
+
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="android:statusBarColor">?colorPrimary</item>
+    </style>
+</resources>

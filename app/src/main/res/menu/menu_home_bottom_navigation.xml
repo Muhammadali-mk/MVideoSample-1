@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_dashboard"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        android:title="" />
+    <item
+        android:id="@+id/home_catalog"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="103"
+        android:title="" />
+    <item
+        android:id="@+id/home_test"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="104"
+        android:title="" />
+</menu>
