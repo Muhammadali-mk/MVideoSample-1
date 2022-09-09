@@ -6,6 +6,8 @@ data class Category(
     val logo: Int? = null,
 
 
+
+
     val subCategories: List<SubCategory>,
     var isSelected: Boolean = false
 )
