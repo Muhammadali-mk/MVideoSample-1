@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.jakelee.apodwallpaper",
+    "sha256_cert_fingerprints": ["7B:E3:6A:AF:1C:55:D7:52:D0:A0:65:20:51:8F:D6:D9:EC:1C:EA:85:34:AE:EA:71:3D:04:59:31:3E:17:7F:29"]
+  }
+}]
